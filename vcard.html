@@ -10,21 +10,26 @@
 </head>
 
 <body>
-
+    
+    <!-- Setting_Icon-->
     <div class="setting" onclick="toogleMenu()">
         <i class='bx bx-cog'></i>
     </div>
+    <!-- Setting_Icon_end-->
 
+    <!-- Drodpdown-->
     <div class="dropdown" id="drop"> 
         <div class="painting">
-            <div class="color" data-color="#ffff00" style="background: #ffff00;"></div>
-            <div class="color" data-color="#FF0000" style="background: #FF0000;"></div>
-            <div class="color" data-color="#122CD3" style="background: #122CD3 ;"></div>
-            <div class="color" data-color="#099613" style="background: #099613;"></div>
-            <div class="color" data-color="EA04FD" style="background: #EA04FD;"></div>
+            <div class="color" data-color="#ffff00" style="background: #ffff00;" onclick="switchColor('yellow')"></div>
+            <div class="color" data-color="#FF0000" style="background: #FF0000;" onclick="switchColor('red')"></div>
+            <div class="color" data-color="#122CD3" style="background: #122CD3 ;" onclick="switchColor('blue')"></div>
+            <div class="color" data-color="#099613" style="background: #099613;" onclick="switchColor('green')"></div>
+            <div class="color" data-color="EA04FD" style="background: #EA04FD;" onclick="switchColor('purple')"></div>
         </div>
     </div>
+    <!-- Drodpdown_End-->
 
+    <!-- Side_bar -->
     <section class="side_bar">
         <h1>
             <a href="vcard.html">my vcard</a>
@@ -43,23 +48,30 @@
             <li><a href="https://www.linkedin.com/in/giuseppe-messina-84553329b/"><i class='bx bxl-linkedin'></i></a></li>
         </ul>
     </section>
+    <!-- Side_bar_End -->
 
+    <!-- Desription -->
     <section class="description">
         <img src="profil.png" alt="my_profil" title="my_profil" width="300px" height="300px">
     </section>
+    <!-- Desription_End -->
 
+    <!-- Text_Description_Profil -->
     <section class="text_description">
         <p>Hi ! My name is Giuseppe. I'm full stack dévellopeur and specialized in UX/UI design.
             My favorite programming languages ​​and php and javascript ! You can check my projects. Good visualization !
         </p>
     </section>
+    <!-- Text_Description_Profil -->
 
+    <!-- Box_Button -->
     <div class="button">
-        <a href="#">Resume</a>
-        <a href="#">Porfolio</a>
+        <a href="#" class="button_style">Resume</a>
+        <a href="#" class="button_style">Porfolio</a>
     </div>
+    <!-- Box_Button -->
 
-    <script src="drop.js"></script>
+    <script src="drop.js"></script> <!-- System_Dropdown_And_SwitchColor -->
 </body>
 
 </html>

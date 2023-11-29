@@ -23,6 +23,7 @@ body {
     overflow: hidden;
 }
 
+/* Setting */
 .setting {
     position: absolute;
     top: 7%;
@@ -42,7 +43,9 @@ body {
 .setting i:hover {
     color: black;
 }
+/* Setting_End */
 
+/* DropDown */
 .dropdown {
     width: 230px;
     height: 40px;
@@ -65,8 +68,10 @@ body {
     position: absolute;
     top: 5%;
     right: 5%;
-    
+
 }
+
+/* DropDown */
 
 .painting {
     display: flex;
@@ -90,6 +95,7 @@ body {
     }
 }
 
+/* Side_bar */
 .side_bar {
     grid-column: 1/2;
     grid-row: 1/8;
@@ -102,7 +108,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
+/* Side_bar_End */
 
+/* Logo */ 
 .side_bar h1 {
     font-size: 2rem;
     animation: move 2s ease-out;
@@ -133,6 +141,7 @@ body {
 .side_bar h1 a:hover {
     color: black;
 }
+/* Logo_End */ 
 
 .nav_bar_principal {
     height: auto;
@@ -176,6 +185,7 @@ body {
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
+/* Github_And Linkedln */
 .media_social {
     display: flex;
     justify-content: space-around;
@@ -204,6 +214,7 @@ body {
     color: black;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 20px 30px rgba(0, 0, 0, 0.8);
 }
+/* Github_And Linkedln_End */
 
 .description {
     grid-column: 3/5;
@@ -241,6 +252,7 @@ p {
     color: var(--color_two);
 }
 
+/* Box_button */
 .button {
     grid-column: 3/5;
     grid-row: 7/8;
@@ -271,3 +283,4 @@ p {
     color: black;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 20px 30px rgba(0, 0, 0, 0.8);
 }
+/* Box_button_end */
