@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vcard</title>
+    <link rel="stylesheet" href="vcard.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="setting" onclick="toogleMenu()">
+        <i class='bx bx-cog'></i>
+    </div>
+
+    <div class="dropdown" id="drop"> 
+        <div class="painting">
+            <div class="color" data-color="#ffff00" style="background: #ffff00;"></div>
+            <div class="color" data-color="#FF0000" style="background: #FF0000;"></div>
+            <div class="color" data-color="#122CD3" style="background: #122CD3 ;"></div>
+            <div class="color" data-color="#099613" style="background: #099613;"></div>
+            <div class="color" data-color="EA04FD" style="background: #EA04FD;"></div>
+        </div>
+    </div>
+
+    <section class="side_bar">
+        <h1>
+            <a href="vcard.html">my vcard</a>
+        </h1>
+        <nav class="nav_bar_principal">
+            <ul class="link_information">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">My skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <ul class="media_social">
+            <li><a href="https://github.com/GMKRAKEN23"><i class='bx bxl-github'></i></a></li>
+            <li><a href="https://www.linkedin.com/in/giuseppe-messina-84553329b/"><i class='bx bxl-linkedin'></i></a></li>
+        </ul>
+    </section>
+
+    <section class="description">
+        <img src="profil.png" alt="my_profil" title="my_profil" width="300px" height="300px">
+    </section>
+
+    <section class="text_description">
+        <p>Hi ! My name is Giuseppe. I'm full stack dévellopeur and specialized in UX/UI design.
+            My favorite programming languages ​​and php and javascript ! You can check my projects. Good visualization !
+        </p>
+    </section>
+
+    <div class="button">
+        <a href="#">Resume</a>
+        <a href="#">Porfolio</a>
+    </div>
+
+    <script src="drop.js"></script>
+</body>
+
+</html>
